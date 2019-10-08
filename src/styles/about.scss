@@ -1,0 +1,80 @@
+.about {
+    min-width: 320px;
+    height: 430px;
+
+    .container {
+        margin: 0 auto;
+        width: 290px;
+        background-image: url(/img/320_about_bg.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        height: 100%;
+    }
+    &__content {
+        padding-top: 48px;
+        .content__title {
+            margin: 0;
+            text-align: left;
+            opacity: 0.87;
+            color: #000000;
+            font-family: "Roboto";
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 14px;
+            margin-left: 26px;
+            letter-spacing: -0.3px;
+            position: relative;
+            margin-bottom: 28px;
+            &:before {
+                position: absolute;
+                content: "";
+                width: 17px;
+                height: 1px;
+                background-color: #000;
+                top: 6px;
+                left: -26px;
+                opacity: 0.87;
+            }
+        }
+        .content__desc{
+            margin: 0;
+            opacity: 0.87;
+            color: #000000;
+            font-family: "SFUI Text";
+            font-size: 15px;
+            font-weight: 300;
+            margin-bottom: 10px;
+            letter-spacing: 0.9px;
+            word-spacing: -3px;
+        }
+        .content__link  {
+display: inline-block;
+text-decoration: none;
+color: #2a4f37;
+font-family: "SFUI Text";
+font-size: 12px;
+font-weight: 600;
+letter-spacing: 1.5px;
+margin-top: 17px;
+position: relative;
+&:after, &:before {
+    position: absolute;
+    background-color: #2a4f37;
+    content: "";
+    right: -16px;
+    top: 4px;
+    width: 8px;
+    height: 2px;
+    transform: rotate(42deg);
+}
+&:after {
+    transform: rotate(-48deg);
+    top: 8px;
+}
+        }
+
+    }
+    .paginations {
+        display: none;
+    }
+}
