@@ -1,0 +1,27 @@
+.how-to {
+    min-width: 320px;
+    &__title {
+        margin: 0;
+        text-align: left;
+        opacity: 0.87;
+        color: #000000;
+        font-family: "Roboto";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 14px;
+        margin-left: 26px;
+        letter-spacing: -0.3px;
+        position: relative;
+        margin-bottom: 28px;
+        &:before {
+            position: absolute;
+            content: "";
+            width: 17px;
+            height: 1px;
+            background-color: #000;
+            top: 6px;
+            left: -26px;
+            opacity: 0.87;
+        }
+    }
+}
