@@ -1,0 +1,69 @@
+.contacts {
+    padding-top: 31px;
+    min-width: 320px;
+    overflow: hidden;
+    &__title {
+        margin: 0;
+        text-align: left;
+        opacity: 0.87;
+        color: #000000;
+        font-family: "Roboto";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: -0.4px;
+        position: relative;
+        margin-left: 41px;
+        margin-bottom: 26px;
+        &:before {
+            position: absolute;
+            content: "";
+            width: 17px;
+            height: 1px;
+            background-color: #000;
+            top: 6px;
+            left: -26px;
+            opacity: 0.87;
+        }
+    }
+    &__map {
+        margin-left: -271px;
+    }
+    &__links {
+        margin: 0;
+        padding: 0;
+        margin-left: 36px;
+        margin-bottom: 49px;
+    }
+    &__link {
+        list-style: none;
+        margin-bottom: 20px;
+        &:nth-child(2) {
+            margin-bottom: 12px;
+        }
+        .link__name {
+            margin: 0;
+            opacity: 0.87;
+            color: #000000;
+            font-family: "SFUI Text";
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 22px;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+        }
+        .link__desc {
+            margin: 0;
+            opacity: 0.87;
+            color: #000000;
+            font-family: "SFUI Text";
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 0.6px;
+            .desc__email {
+                opacity: 0.87;
+                color: #000000;
+            }
+        }
+    }
+}
