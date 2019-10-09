@@ -1,5 +1,7 @@
 .how-to {
     min-width: 320px;
+    padding-top: 46px;
+    padding-bottom: 69px;
     &__title {
         margin: 0;
         text-align: left;
@@ -9,10 +11,10 @@
         font-size: 18px;
         font-weight: 500;
         line-height: 14px;
-        margin-left: 26px;
-        letter-spacing: -0.3px;
+        letter-spacing: -0.4px;
         position: relative;
-        margin-bottom: 28px;
+        margin-left: 40px;
+        margin-bottom: 29px;
         &:before {
             position: absolute;
             content: "";
@@ -22,6 +24,56 @@
             top: 6px;
             left: -26px;
             opacity: 0.87;
+        }
+    }
+    &__technique {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        .technique {
+            &__name {
+                margin: 0;
+                margin-left: -4px;
+                margin-bottom:11px;
+                opacity: 0.87;
+                color: #242424;
+                font-family: "Roboto";
+                font-size: 14px;
+                font-weight: 400;
+            }
+            &__desc {
+                margin: 0;
+                text-align: center;
+                line-height: 18px;
+            }
+            
+        }
+        &--1 {
+            margin-bottom: 89px;
+        }
+        &--2 {
+            margin-bottom: 71px;
+            .technique__photo {
+                margin-top: -71px;
+                margin-left: -8px;
+                margin-bottom: 11px;
+            }
+        }
+        &--3 {
+            margin-bottom: 75px;
+            .technique__photo {
+                margin-left: -14px;
+                margin-top: 39px;
+                margin-bottom: 19px;
+            }
+        }
+        &--4 {
+            .technique__photo {
+                margin-top: 45px;
+                margin-left: 8px;
+                margin-bottom: 16px;
+            }
         }
     }
 }
