@@ -1,0 +1,69 @@
+.main-footer {
+    min-width: 320px;
+    height: 157px;
+    background-color: #91aa59;
+    padding-top: 42px;
+    margin-top: 9px;
+    position: relative;
+    z-index: 2;
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-link {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        text-decoration: none;
+        margin-bottom: 6px;
+        &__title {
+            color: #fefefe;
+            font-family: "SFUI Text";
+            font-size: 8px;
+            font-weight: 300;
+            line-height: 13.9px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+    }
+    &__socials {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        align-items: flex-end;
+        margin-bottom: 31px;
+    }
+    &__social {
+        justify-self: flex-end;
+        .social__link > svg{
+            fill: #fff;
+           }
+        &:nth-child(even) {
+            margin-right: 17px;
+            margin-left: 16px;
+        }
+    }
+    &__copyrights {
+        color: #fefefe;
+        font-family: "SFUI Text";
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 19.94px;
+        letter-spacing: 1.4px;
+        word-spacing: 1px;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .copyrights__logo {
+            fill: #fff;
+            margin-left: 10px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

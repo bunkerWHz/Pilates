@@ -5,6 +5,9 @@
 * {
     box-sizing: border-box;
 }
+picture {
+    display: flex;
+}
 body {
     min-width: 320px;
     padding: 0;
@@ -31,3 +34,4 @@ text-decoration: none;
 @import "how-to.scss";
 @import "reviews.scss";
 @import "contacts.scss";
+@import "main-footer.scss";
