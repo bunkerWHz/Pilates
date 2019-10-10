@@ -112,3 +112,21 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 764px) {
+    .schedule {
+        padding: 0 62px;
+        &__title {
+            margin-left: 55px;
+            font-size: 24px;
+            line-height: 30.52px;
+            margin-bottom: 37px;
+            &:before {
+                width: 37px;
+                left: -55px;
+                top: 13px;
+                height: 2px;
+            }
+        }
+    }
+}

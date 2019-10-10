@@ -30,7 +30,6 @@
     .container {
         margin: 0 auto;
         width: 290px;
-   
     }
     &__content {
         background-image: url(/img/320_about_bg.jpg);
@@ -77,5 +76,53 @@ position: relative;
     }
     .paginations {
         display: none;
+    }
+}
+
+@media screen and (min-width: 764px) {
+    .about {
+        padding: 0 62px;
+        padding-top: 65px;
+        padding-bottom: 83px;
+        &__title {
+            margin-left: 55px;
+            font-size: 24px;
+            line-height: 30.52px;
+            margin-bottom: 37px;
+            &:before {
+                width: 37px;
+                left: -55px;
+                top: 13px;
+                height: 2px;
+            }
+        }
+        &__content {
+            background-image: url(/img/764_about_bg.jpg);
+            padding-bottom: 116px;
+            .content__desc {
+                width: 315px;
+                font-size: 16px;
+                margin-bottom: 20px;
+                line-height: 19.5px;
+                letter-spacing: 1.4px;
+                word-spacing: -1px;
+            }
+            .content__link {
+                font-size: 14px;
+                margin-top: 25px;
+                letter-spacing: 2px;
+                &:before {
+                    top: 5px;
+                    width: 9px;
+                }
+                &:after {
+                    top: 10px;
+                    width: 9px;
+                }
+            }
+        }
+        .container {
+            width: unset;
+        }
     }
 }
