@@ -27,7 +27,9 @@
         }
     }
     &__map {
-        margin-left: -271px;
+        margin-left: calc(-50% - 160px);
+        margin-right: calc(-50% - 160px);
+        height: 279px;
     }
     &__links {
         margin: 0;

@@ -15,6 +15,16 @@
         position: relative;
         margin-left: 25px;
         margin-bottom: 32px;
+        &:before {
+            position: absolute;
+            content: "";
+            width: 17px;
+            height: 1px;
+            background-color: #000;
+            top: 6px;
+            left: -26px;
+            opacity: 0.87;
+        }
     }
     .container {
         margin: 0 auto;

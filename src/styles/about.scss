@@ -1,17 +1,19 @@
 .about {
     min-width: 320px;
-    height: 430px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
 
     .container {
         margin: 0 auto;
         width: 290px;
+   
+    }
+    &__content {
+        height: 382px;
         background-image: url(/img/320_about_bg.jpg);
         background-repeat: no-repeat;
         background-position: bottom right;
-        height: 100%;
-    }
-    &__content {
-        padding-top: 48px;
         .content__title {
             margin: 0;
             text-align: left;
