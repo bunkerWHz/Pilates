@@ -45,9 +45,9 @@
                 position: absolute;
                 opacity: 0.1;
                 color: #ffffff;
-                font-family: "Proxima Nova - Extrabold";
+                font-family: "Proxima Nova";
                 font-size: 115px;
-                font-weight: 400;
+                font-weight: 800;
                 top: 15px;
                 left: 70px;
             }
@@ -116,11 +116,27 @@
 @media screen and (min-width: 764px) {
     .schedule {
         padding: 0 62px;
+        .container {
+            width: unset;
+        }
+        &__items {
+            width: unset;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0;
+        }
+        &__item {
+            padding-left: 25px;
+            width: 206px;
+            margin: 0;
+        }
         &__title {
             margin-left: 55px;
             font-size: 24px;
             line-height: 30.52px;
-            margin-bottom: 37px;
+            margin-bottom: 43px;
+            letter-spacing: 0;
             &:before {
                 width: 37px;
                 left: -55px;
