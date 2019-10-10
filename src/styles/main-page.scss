@@ -16,9 +16,21 @@
         flex-direction: row;
         width: 100%;
         &__logo {
-            display: flex;
-            width: 31px;
-            height: 38px;
+                display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            text-decoration: none;
+            margin-bottom: 6px;
+            .logo__title {
+                    color: #fefefe;
+                    font-family: "SFUI Text";
+                    font-size: 7px;
+                    font-weight: 300;
+                    line-height: 12px;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+            }
         }
         .main-nav {
             width: 100%;
@@ -63,7 +75,7 @@
     }
 
     &__desc {
-        margin-top: 85px;
+        margin-top: 82px;
         .desc__title {
             color: #ffffff;
             font-family: "Roboto";
