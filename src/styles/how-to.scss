@@ -46,6 +46,7 @@
                 margin: 0;
                 text-align: center;
                 line-height: 18px;
+                font-size: 14px;
                 margin-top: 4px;
                 width: 290px;
             }
@@ -75,6 +76,55 @@
                 margin-top: 45px;
                 margin-left: 8px;
                 margin-bottom: 16px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 764px) {
+    .how-to {
+        padding: 0 62px;
+        padding-top: 82px;
+        &__technique {
+            margin: 0;
+            flex-wrap: wrap;
+            height: 200px;
+            justify-content: flex-start;
+            height: 330px;
+            &:nth-of-type(even) {
+                .technique__photo {
+                    order: 1;
+                }
+            }
+            .technique {
+                &__name {
+                    order: 2;
+                    font-size: 18px;
+                }
+                &__photo {
+                    order: 4;
+                }
+                &__desc {
+                    text-align: left;
+                    order: 3;
+                    font-size: 16px;
+
+                }
+            }
+        }
+        &__title {
+            margin-left: 52px;
+            font-size: 24px;
+            line-height: 30.52px;
+            margin-bottom: 43px;
+            letter-spacing: 0;
+            &:before {
+                width: 37px;
+                left: -52px;
+                top: 17px;
+                height: 2px;
             }
         }
     }

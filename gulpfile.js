@@ -48,7 +48,7 @@ gulp.task('images', () => {
     imagemin.jpegtran({progressive: true}),
     imagemin.svgo()
   ]))
-  .pipe(gulp.dest('src/img'))
+  .pipe(gulp.dest('build/img/'))
 });
 
 gulp.task('webp', () => {
